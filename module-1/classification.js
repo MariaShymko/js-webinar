@@ -23,7 +23,7 @@ function grade(score) {
      * Also take into consideration the documentation of the function!
      */
     // PLACE YOUR CODE BETWEEN THIS...
-
+    gradeOfStudent = Math.floor(0.1*score - 4);
     // ...AND THIS COMMENT LINE!
     return gradeOfStudent;
 }
